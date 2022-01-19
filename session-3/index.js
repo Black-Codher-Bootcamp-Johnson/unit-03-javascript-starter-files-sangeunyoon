@@ -8,3 +8,16 @@ console.log(thisIsNumber)
 const name ='Tanya';
 var age='10';
 console.log(name)
+
+function sayHey() {
+    console.log ('hey!')
+}
+sayHey()
+
+function converstion() {
+ sayHey();
+ console.log('How are you?');
+ console.log('Goodbye');
+}
+
+converstion() 

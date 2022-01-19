@@ -21,3 +21,12 @@ function converstion() {
 }
 
 converstion() 
+
+
+
+function futureAge(name, age) {
+ let answer = age + 5 ;
+ return "Hi "+ name + "!" + "You will " + answer + " years old in 5 years" 
+
+}
+console.log(futureAge("Mary",17))

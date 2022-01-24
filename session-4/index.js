@@ -1,42 +1,78 @@
 // ****************************************************TASK 1 - OBJECTS****************************************************
 
 
+let personA= {
+ name: 'A',
+ age: '21',
+ location:'Manchester',
+ likes: 'pizza'
+};
 
 
 
 
+let personB= {
+    name: 'B',
+    age: '31',
+    location:'Manchester',
+    likes: 'Pasta'
+   };
+
+
+
+   let personC= {
+    name: 'C',
+    age: '41',
+    location:'London',
+    likes: 'Korean BBQ'
+   };
+
+
+   let personD= {
+    name: 'D',
+    age: '51',
+    location:'London',
+    likes: 'Spicy food'
+   };
 
 
 
 
+   function biography(person) {
+   console.log('Hi, my name is ' + person.name + '. I am ' + person.age + 'years old, I live in  ' +person.location+
+      ' and I like ' + person.likes +'.')
+     
+     }
 
-
-
+     biography(personA);
+     biography(personB);
+     biography(personC);
+     biography(personD);
 
 
 
 
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
-// ***Uncomment the code below to begin the task***
 
-// const x = 6;
-// const y = 4;
 
-// const addition = x + y;
+const x = 6;
+const y = 4;
 
-// console.log("Addition: x + y " + addition);
+const addition = x + y; 
 
-// const subtraction = x - y;
+console.log("Addition: x + y = " + addition); // Addition: x + y = 10 
 
-// console.log("Subtraction: x - y " + subtraction);
+const subtraction = x - y;
 
-// const multiplication = x * y;
+console.log("Subtraction: x - y =" + subtraction); // subtraction: x-y =2
 
-// console.log("multiplication: x * y " + multiplication);
+const multiplication = x * y;
 
-// const division = x * y;
+ console.log("multiplication: x * y =" + multiplication); //multiplicatio: x* y= 24
 
-// console.log("Division: x + y " + division);
+ const division = x / y;
+
+ console.log("Division: x / y = " + division); // Division: x/y = 1.5
 
 
 

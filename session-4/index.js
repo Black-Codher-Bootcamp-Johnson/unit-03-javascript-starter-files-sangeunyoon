@@ -74,7 +74,11 @@ const multiplication = x * y;
 
  console.log("Division: x / y = " + division); // Division: x/y = 1.5
 
-
+if (x===y) {
+    console.log ("X is equal to y");
+} else {
+    console.log("X is not equal to y")
+}
 
 
 
@@ -92,6 +96,12 @@ const multiplication = x * y;
 
 
 
+const age = 31;
+const minimumDrivingAge= 17;
+
+const isEnoughDrive = age > minimumDrivingAge;
+
+console.log('Do I age enough for driving?' + isEnoughDrive);
 
 
 

@@ -111,6 +111,64 @@ console.log('Do I age enough for driving?' + isEnoughDrive);
 
 
 
+//****************************************homework******************************************************** */
+
+
+      function calculate(firstNum, secNum, ope) {
+    
+        if(ope === "*") {
+           return firstNum * secNum
+         }
+    
+     
+       if(ope === "-") {
+        return firstNum - secNum
+      }
+    
+    
+      if(ope === "+") {
+        return firstNum + secNum
+      }
+    
+    if(ope === "/") {
+        return firstNum / secNum
+      }
+      }
+
+       calculate(2,2,'*');
+       calculate(22,3,'-');
+       calculate(2,2,'+');
+       calculate(21,3,'/');
 
 
 
+
+    
+ 
+ const ageA = 21; 
+const ageB= 31;
+
+const whoIsOlder= ageA > ageB;
+
+console.log('Who is older?' + whoIsOlder);
+
+
+
+      let personA= {
+        name: 'A',
+        age: '21',
+        
+       };
+       
+            
+       let personB= {
+           name: 'B',
+           age: '31',
+    
+          };
+       
+          function whoIsOlder(person) {
+            console.log( person.name + 'is' + person.age + 'years old older than ' +person.name)
+              
+              }
+        

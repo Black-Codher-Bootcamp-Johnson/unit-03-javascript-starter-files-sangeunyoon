@@ -42,8 +42,9 @@ function getGrade(total) {
       grade = "Fail";
   }
   return grade;
+  
 }
-console.log(getGrade(60));
+console.log(getGrade(80));
 
 // function getGrade(total) {
 //   if (total > 90) {

@@ -1,9 +1,20 @@
-// ****************************************************TASK 1****************************************************
+// // ****************************************************TASK 1****************************************************
+// const animals = ['cat','dog','cow','fox','horse'];
+// //for (let i = 0; i <animals, length, i++)
+// //const anmail = animals(i);
+
+// //console.log(animal);
+// //
+
+// // console.log(animals [0]);
+// // console.log(animals [1]);
+// // console.log(animals [2]);
+// // console.log(animals [3]);
+// // console.log(animals [4]);
 
 
-
-
-
+// animals.pop()
+// console.log(animals)
 
 
 
@@ -17,12 +28,16 @@
 // ****************************************************TASK 2****************************************************
 
 
+const name = ['Ben','Amy','Joe','Jay','Hayden','San','Adele','Emily','Steven','Mina'];
+
+name.sort().reverse();
+console.log(name);
 
 
+const number =[5, 325, 67, 100000, 150]
 
-
-
-
+number.sort().reverse();
+console.log(number);
 
 
 

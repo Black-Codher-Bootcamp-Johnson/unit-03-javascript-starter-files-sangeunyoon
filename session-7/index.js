@@ -56,6 +56,11 @@ const people = [
 function compare(a, b) {
   const personA = a.age;
   const personB = b.age;
+ 
 
   return personA > personB ? true : false;
-}
+};
+
+const sortedPeople = people.sort((a, b)=> a.age - b.age).map(person => person.name);
+
+console.log('sorted people: ',sortedPeople);
